@@ -5,7 +5,7 @@ using GettingStartedLib;
 
 namespace GettingStartedHost
 {
-    /// <summary>
+    /// <summary>    
     /// https://docs.microsoft.com/en-us/dotnet/framework/wcf/how-to-host-and-run-a-basic-wcf-service
     /// </summary>
     class Program
@@ -28,7 +28,7 @@ namespace GettingStartedHost
                 smb.HttpGetEnabled = true;
                 selfHost.Description.Behaviors.Add(smb);
 
-                // Step 5: Start the service.
+                // Step 5: Start the service. Need admin permission to open the port!
                 selfHost.Open();
                 Console.WriteLine("The service is ready @ " + DateTime.Now.ToString() );
 

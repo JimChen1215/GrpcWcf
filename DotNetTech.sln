@@ -16,9 +16,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wcf.Server", "Wcf.Server\Wc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wcf.Client", "Wcf.Client\Wcf.Client.csproj", "{207BFDC7-6E47-4874-9B6E-D79C25778B49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoGrpcService", "DemoGrpcService\DemoGrpcService.csproj", "{C2D8BF92-5BEE-48A9-A3DD-BD59020EEADF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoGrpcService", "DemoGrpcService\DemoGrpcService.csproj", "{C2D8BF92-5BEE-48A9-A3DD-BD59020EEADF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoGrpcClient", "DemoGrpcClient\DemoGrpcClient.csproj", "{223D7B09-04BE-4217-9A32-2E16C60E9DEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoGrpcClient", "DemoGrpcClient\DemoGrpcClient.csproj", "{223D7B09-04BE-4217-9A32-2E16C60E9DEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
